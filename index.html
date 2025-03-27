@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Todo App</h1>
+
+
+    <label for=""> Enter your Todo :
+        <input onchange="addTodo()" type="text" name="text" class="input-text" id="todo" placeholder="Enter your todo">
+        <button onclick="addTodo()" id="add">Add</button>
+        <button onclick="DeleteAll()">Delete All</button>
+    </label>
+    <p></p>
+
+    <ol class="ol-list"> </ol>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
